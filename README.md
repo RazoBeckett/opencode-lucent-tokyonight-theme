@@ -2,7 +2,7 @@
 
 A translucent theme for [OpenCode](https://opencode.ai) based on the popular [Tokyo Night](https://tokyonight.org/) color scheme with transparent backgrounds for a modern, sleek appearance.
 
-![Lucent Tokyo Night Theme Preview](preview.svg)
+![Lucent Tokyo Night Theme Preview](preview.webp)
 
 ## Installation
 
