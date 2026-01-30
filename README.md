@@ -14,7 +14,7 @@ A translucent theme for [OpenCode](https://opencode.ai) based on the popular [To
 2. Download the theme file:
    ```bash
    curl -o ~/.config/opencode/themes/lucent-tokyonight.json \
-     https://raw.githubusercontent.com/YOUR_USERNAME/opencode-lucent-tokyonight-theme/main/.opencode/themes/lucent-tokyonight.json
+     https://raw.githubusercontent.com/RazoBeckett/opencode-lucent-tokyonight-theme/main/.opencode/themes/lucent-tokyonight.json
    ```
 
 3. Add to your `~/.config/opencode/opencode.json`:
