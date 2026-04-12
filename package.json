@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "oc-lucent-tokyonight",
+  "version": "0.1.0",
+  "description": "Lucent Tokyo Night theme plugin for OpenCode TUI",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazoBeckett/opencode-lucent-tokyonight-theme.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "theme",
+    "tokyonight"
+  ],
+  "license": "MIT",
+  "exports": {
+    "./tui": {
+      "import": "./tui.ts",
+      "config": {
+        "enabled": true,
+        "autoApply": true,
+        "theme": "lucent-tokyonight"
+      }
+    }
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "engines": {
+    "opencode": ">=1.3.14"
+  }
+}
