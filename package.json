@@ -16,6 +16,12 @@
     "tokyonight"
   ],
   "license": "MIT",
+  "files": [
+    "tui.ts",
+    "lucent-tokyonight.json",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     "./tui": {
       "import": "./tui.ts",
