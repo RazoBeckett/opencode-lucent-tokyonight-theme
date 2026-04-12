@@ -6,25 +6,35 @@ A translucent theme for [OpenCode](https://opencode.ai) based on the popular [To
 
 ## Installation
 
-1. Create the themes directory (if it doesn't exist):
-   ```bash
-   mkdir -p ~/.config/opencode/themes
-   ```
+Install as an OpenCode TUI plugin:
 
-2. Download the theme file:
-   ```bash
-   curl -o ~/.config/opencode/themes/lucent-tokyonight.json \
-     https://raw.githubusercontent.com/RazoBeckett/opencode-lucent-tokyonight-theme/main/.opencode/themes/lucent-tokyonight.json
-   ```
+```bash
+opencode plugin oc-lucent-tokyonight
+```
 
-3. Add to your `~/.config/opencode/opencode.json`:
-   ```json
-   {
-     "theme": "lucent-tokyonight"
-   }
-   ```
+This installs the npm package and adds it to your `tui.json` plugin list.
 
-4. Restart OpenCode.
+### Example `tui.json`
+
+```json
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "plugin": [
+    [
+      "oc-lucent-tokyonight",
+      {
+        "enabled": true,
+        "autoApply": true,
+        "theme": "lucent-tokyonight"
+      }
+    ]
+  ]
+}
+```
+
+- `enabled` (default: `true`) — turn the plugin on/off.
+- `autoApply` (default: `true`) — automatically switch to the theme after loading.
+- `theme` (default: `"lucent-tokyonight"`) — the theme name to apply.
 
 ## Features
 
